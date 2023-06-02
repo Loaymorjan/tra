@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+.carousel-item img {
+  height: 400px;
+  background-size: cover;
+}
+h5 {
+  color: rgb(245, 245, 221);
+  font-weight: bold;
+}
+h4{
+  color: rgb(94, 93, 91);
+  text-align: center;
+}
+.card-text{
+  font-weight: bold;
+}
+.loay {
+  margin-right: 10px;
+}
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  flex: 60%;
+  background-color: rgb(242, 247, 243);
+  padding: 20px;
+}
+.col-md-4 img {
+  height: 100%;
+}
+.view {
+  padding-top: 25px;
+  margin: auto;
+  max-width: 740px;
+  padding-bottom: 25px;
+}
+.hrr {
+  height: 5px;
+  background-color: brown;
+  margin: 20px 0;
+}
+
+.side {
+  flex: 40%;
+  background-color: #dbd5d5;
+  padding: 20px;
+}
+/* Footer */
+.footer {
+  padding: 7px;
+  text-align: center;
+  background: rgb(218, 255, 224);
+  height: 300px;
+}
+.input-group{
+  padding: 12px 0;
+  width: 60%;
+  margin-left:50px;
+}
+.view a{
+  color: rgb(56, 55, 55);
+  font-weight: bold;
+  font-size: x-large;
+  margin-left: 175px;
+}
+.view a:hover {
+  background-color: #ffffff;
+  color: rgb(97, 0, 224);
+}
